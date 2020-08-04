@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Three.js Boilerplate</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		    <div class="options">
+        <div class="option --is-active" data-option="FeetsSG">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/legs.svg" alt="" />
+        </div>
+        <div class="option" data-option="SeatSG">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/cushions.svg" alt="" />
+        </div>
+        <div class="option" data-option="BaseSG">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/base.svg" alt="" />
+        </div>
+        <div class="option" data-option="ArmRestSG">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/supports.svg" alt="" />
+        </div>
+     
+           <div class="option" data-option="Coshen1SG">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/back.svg" alt="" />
+        </div>
+    </div>
+		 <canvas id="c"></canvas>
+		   <div class="controls">
+			 <div id="js-tray" class="tray">
+            <div id="js-tray-slide" class="tray__slide"></div>
+        </div>
+        </div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+		<script src="assets/OrbitControls.js"></script>
+		<script src="assets/OBJLoader.js"></script>
+		<script src="assets/MTLLoader.js"></script>
+		<script src="scripts.js"></script>
+	</body>
+</html>
